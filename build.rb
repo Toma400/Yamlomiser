@@ -7,7 +7,7 @@ OUT = "build/randomiser.exe"
 begin
   File.delete(OUT) if File.exist?(OUT)
 
-  system("ocra --console --no-dep-run --verbose --output build/randomiser.exe --icon rand.png randomiser.rb")
+  system("ocra --console --no-dep-run --verbose --output build/randomiser.exe --icon build/rand.png randomiser.rb")
   File.delete("tmpin") if File.exist?("tmpin")
 rescue
   puts "Build failed."
