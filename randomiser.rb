@@ -41,7 +41,7 @@ while true
       read_category = file_encr[prompt.chomp]
       puts ">> [#{read_category.sample}]"
     rescue
-      puts "There's no such category in file!"
+      puts "There's no such category in file, or it is empty!"
     end
   else
     exit!
