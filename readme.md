@@ -23,8 +23,13 @@ however it is so intuitive that it should be enough for you to just take a peek 
 the file to see how it works. You can open it with any text reading software, like Notepad.  
 File needs to have at least one category and one value.
 
+If there's executable file, you simply enter category names into the terminal showing up.  
+If there's not, you can download the repository and run it with `ruby randomiser.rb`, or build the executable
+through `ruby build.rb` command. Note that you should have Ruby installed, as well as `yaml` gem, for this
+to work properly. Building executable requires `zip` gem (and possibly `rubyzip` as well).
+
 # License and credits
-License: simple All Rights Reserved. Because why the heck not.
+License: simple All Rights Reserved. Because why the heck not.  
 Credits:
 - Toma400 (code, logo, everything)
 - GothRoss server (idea)
