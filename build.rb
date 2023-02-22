@@ -9,7 +9,7 @@ begin
   File.delete(OUT_ZIP) if File.exist?(OUT_ZIP)
 
   # builds .exe file & cleans after itself
-  system("ocra --console --no-dep-run --no-autodll --verbose --output #{OUT_EXE} --icon build/rand.png randomiser.rb")
+  system("ocra --console --no-dep-run --dll ruby_builtin_dlls/libgmp-10.dll --verbose --output #{OUT_EXE} --icon build/rand.png randomiser.rb")
   File.delete("tmpin") if File.exist?("tmpin")
 
   # packs all files into build folder
