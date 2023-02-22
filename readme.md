@@ -26,8 +26,9 @@ File needs to have at least one category and one value.
 If there's executable file, you simply enter category names into the terminal showing up.
 
 If there's not, you can download the repository and run it with `ruby randomiser.rb`, or build the executable
-through `ruby build.rb` command. Note that you should have Ruby installed, as well as `yaml` gem, for this
-to work properly. Building executable additionally requires `zip` gem (and possibly `rubyzip` as well).
+through `ruby build.rb` command. Note that you should have Ruby installed (used 3.2.1 version),
+as well as `yaml` gem, for this to work properly.  
+Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well).
 
 # License and credits
 License: simple **All Rights Reserved**. Because why the heck not.  
