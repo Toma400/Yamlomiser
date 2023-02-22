@@ -23,12 +23,14 @@ however it is so intuitive that it should be enough for you to just take a peek 
 the file to see how it works. You can open it with any text reading software, like Notepad.  
 File needs to have at least one category and one value.
 
-If there's executable file, you simply enter category names into the terminal showing up.
+Currently, there is no executable file, as for some reason [Ocra doesn't build proper executable files](https://github.com/larsch/ocra/issues/183)
+and I am struggling from the same issue. So, you will need to take some additional steps to run the file:
+- [Download and install Ruby](https://rubyinstaller.org/downloads/) (3.2.1 version is suggested)
+- Once installed, use `gem install yaml` command in [PowerShell](https://www.guru99.com/powershell-tutorial.html) (also known as `cmd`)
+- Run the file by either double-clicking **randomiser.rb** file, or through PowerShell command `ruby [path_to_the_file]` (if you run it from the folder the file is in, it's simply `ruby randomiser.rb`)
 
-If there's not, you can download the repository and run it with `ruby randomiser.rb`, or build the executable
-through `ruby build.rb` command. Note that you should have Ruby installed (used 3.2.1 version),
-as well as `yaml` gem, for this to work properly.  
-Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well).
+You can try to build the executable yourself, for it simply run **build.rb** file (or `ruby build.rb` for PowerShell command).   
+Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well). Be aware it may not work, as it didn't for me.
 
 # License and credits
 License: simple [**All Rights Reserved**](license.md). Because why the heck not.
