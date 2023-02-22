@@ -26,11 +26,17 @@ File needs to have at least one category and one value.
 Currently, there is no executable file, as for some reason [Ocra doesn't build proper executable files](https://github.com/larsch/ocra/issues/183)
 and I am struggling from the same issue. So, you will need to take some additional steps to run the file:
 - [Download and install Ruby](https://rubyinstaller.org/downloads/) (3.2.1 version is suggested)
-- Once installed, use `gem install yaml` command in [PowerShell](https://www.guru99.com/powershell-tutorial.html) (also known as `cmd`)
-- Run the file by either double-clicking **randomiser.rb** file, or through PowerShell command `ruby [path_to_the_file]` (if you run it from the folder the file is in, it's simply `ruby randomiser.rb`)
+- Once installed, use `gem install yaml` command in [PowerShell](https://www.guru99.com/powershell-tutorial.html) (also known as **cmd**)
+- Run the file by either double-clicking **randomiser.rb** file, or PowerShell command `ruby [path_to_the_file]`  
+(if you run it from the folder the file is in, it's simply `ruby randomiser.rb`)
 
-You can try to build the executable yourself, for it simply run **build.rb** file (or `ruby build.rb` for PowerShell command).   
-Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well). Be aware it may not work, as it didn't for me.
+You can try to build the executable yourself, for that simply run **build.rb** file (or `ruby build.rb` for PowerShell command).
+Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well).
+Be aware it may not work, as it didn't for me.
+
+Once run, you will be asked about category you want to get randomised value from. Once you write one and press Enter,
+value will appear. Use `exit` keyword to end the program.
+<img src="build/rand.png" width="100%">
 
 # License and credits
 License: simple [**All Rights Reserved**](license.md). Because why the heck not.
