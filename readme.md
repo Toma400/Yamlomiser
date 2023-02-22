@@ -8,7 +8,7 @@ generated names will most probably be extremely generic.
 
 Hence, Yamlomiser puts this weight back on your shoulders. Don't thank me!
 
-# What it is
+# What is it
 Yamlomiser uses .yaml file to randomise values you manually put into it, supporting
 also separation through categories.  
 It is meant to be helper with anything that requires some randomness with controlled coherency - for example,
@@ -31,7 +31,7 @@ as well as `yaml` gem, for this to work properly.
 Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well).
 
 # License and credits
-License: simple **All Rights Reserved**. Because why the heck not.  
+License: simple [**All Rights Reserved**](license.md). Because why the heck not.
 Credits:
 - Toma400 (code, logo, everything)
 - GothRoss server (idea)
