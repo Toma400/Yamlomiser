@@ -35,7 +35,8 @@ Building executable additionally requires `ocra` and `zip` gems (and possibly `r
 Be aware it may not work, as it didn't for me.
 
 When you run Yamlomiser, you will be asked about category you want to get randomised value from.  
-Once you write one and press Enter, value will appear. Use `exit` keyword to end the program.  
+Once you write one and press Enter, value will appear. Use `exit` keyword to end the program.
+
 <img src="yamlomiser_in_work.png" width="100%">
 
 # License and credits
