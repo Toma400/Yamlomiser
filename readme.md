@@ -34,9 +34,9 @@ You can try to build the executable yourself, for that simply run **build.rb** f
 Building executable additionally requires `ocra` and `zip` gems (and possibly `rubyzip` as well).
 Be aware it may not work, as it didn't for me.
 
-Once run, you will be asked about category you want to get randomised value from. Once you write one and press Enter,
-value will appear. Use `exit` keyword to end the program.
-<img src="build/rand.png" width="100%">
+When you run Yamlomiser, you will be asked about category you want to get randomised value from.  
+Once you write one and press Enter, value will appear. Use `exit` keyword to end the program.  
+<img src="yamlomiser_in_work.png" width="100%">
 
 # License and credits
 License: simple [**All Rights Reserved**](license.md). Because why the heck not.
