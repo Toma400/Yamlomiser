@@ -40,7 +40,7 @@ Once you write one and press Enter, value will appear. Use `exit` keyword to end
 <img src="yamlomiser_in_work.png" width="100%">
 
 # License and credits
-License: simple [**All Rights Reserved**](license.md). Because why the heck not.
+License: simple [**All Rights Reserved**](license.md). Because why the heck not.  
 Credits:
 - Toma400 (code, logo, everything)
 - GothRoss server (idea)
